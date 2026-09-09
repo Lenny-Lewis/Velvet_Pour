@@ -74,6 +74,20 @@ const Contact = () => {
 			))}
 		 </div>
 		</div>
+
+		<div className="branding">
+			<p>© {new Date().getFullYear()} Velvet Pour. All rights reserved.</p>
+			<p>
+				Made by{' '}
+				<a
+					href="https://www.lennoxlewis.co.ke/"
+					target="_blank"
+					rel="noopener noreferrer"
+				>
+					Lennox Lewis
+				</a>
+			</p>
+		</div>
 	 </div>
 	</footer>
  )

@@ -367,6 +367,18 @@ body {
             p {
                 @apply lg:text-2xl 2xl:text-3xl text-sm;
             }
+
+            .branding {
+                @apply border-t border-white/10 pt-6 mt-4 w-full flex flex-col sm:flex-row justify-between items-center gap-3 text-xs md:text-sm text-white/70;
+
+                p {
+                    @apply lg:text-sm 2xl:text-base text-xs text-white/70 tracking-wide font-normal;
+                }
+
+                a {
+                    @apply text-yellow font-semibold hover:underline underline-offset-4 transition-all;
+                }
+            }
         }
 
         .drink-img {
