@@ -86,6 +86,13 @@ const Contact = () => {
 				>
 					Lennox Lewis
 				</a>
+				<span className="mt-2 flex justify-center sm:justify-end">
+					<img
+						src="/Signatures/signature_L_white.png"
+						alt="Lennox Lewis signature"
+						className="block w-24 h-auto"
+					/>
+				</span>
 			</p>
 		</div>
 	 </div>
